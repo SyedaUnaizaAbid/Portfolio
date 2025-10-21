@@ -1,7 +1,7 @@
-/* ===== Theme: Mint & Purple (modern tech) ===== */
+/* ===== Theme: Orange & Purple (modern tech) ===== */
 :root {
-    --mint-1: #f5f0e9;
-    --mint-2: #f6e2d7;
+    --orange-1: #f5f0e9;
+    --orange-2: #f6e2d7;
     --purple-1: #7b61ff;
     --purple-2: #5a3dff;
     --bg: #ffffff;
@@ -323,4 +323,5 @@ a.inline-link {
 .center {
     display: flex;
     justify-content: center
+
 }
