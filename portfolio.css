@@ -24,7 +24,7 @@ body {
 body {
     margin: 0;
     font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    background: linear-gradient(180deg, var(--mint-1), var(--mint-2));
+    background: linear-gradient(180deg, var(--orange-1), var(--orange-2));
     color: #0b1020;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -323,5 +323,4 @@ a.inline-link {
 .center {
     display: flex;
     justify-content: center
-
 }
