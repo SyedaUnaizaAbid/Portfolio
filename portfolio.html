@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Syeda Unaiza Abid — Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta name="description"
+        content="Syeda Unaiza Abid — Pre-Medical Student & Aspiring Front-End Developer. Portfolio showcasing projects, skills and contact details.">
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- Header -->
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="#home" onclick="scrollToSection('home')">
+                    <div class="avatar">SU</div>
+                    <div class="brand-text">
+                        <h1>Syeda Unaiza Abid</h1>
+                        <p>Pre-Medical Student & Aspiring Front-End Developer — Turning ideas into interactive web
+                            experiences.</p>
+                    </div>
+                </a>
+
+                <nav class="nav" role="navigation" aria-label="Main navigation">
+                    <a class="nav-link active" href="#home" onclick="scrollToSection('home')">Home</a>
+                    <a class="nav-link" href="#about" onclick="scrollToSection('about')">About</a>
+                    <a class="nav-link" href="#skills" onclick="scrollToSection('skills')">Skills</a>
+                    <a class="nav-link" href="#projects" onclick="scrollToSection('projects')">Projects</a>
+                    <a class="nav-link" href="#resume" onclick="scrollToSection('resume')">Resume</a>
+                    <a class="nav-link" href="#contact" onclick="scrollToSection('contact')">Contact</a>
+                </nav>
+
+
+                <button class="hamburger" id="menuToggle" aria-expanded="false" aria-controls="mobileNav">☰</button>
+            </div>
+        </header>
+
+        <!-- HOME / HERO -->
+        <main id="home" class="hero">
+            <div class="hero-left">
+                <h2>Hello — I'm <strong>Syeda Unaiza Abid</strong></h2>
+                <div class="tagline">Pre-Medical Student & Aspiring Front-End Developer — Turning ideas into interactive
+                    web experiences.</div>
+                <p class="lead">I build simple, responsive web pages using HTML, CSS and JavaScript. I enjoy turning
+                    designs into working sites, practicing code daily, and learning new tools to improve my skills.</p>
+                <div class="cta">
+                    <a class="btn" href="#projects" onclick="scrollToSection('projects')">View Projects</a>
+                    <a class="btn"
+                        href="https://github.com/SyedaUnaizaAbid/My-Resume/blob/main/Syeda%20Unaiza%20Abid%20Resume.pdf"
+                        target="_blank" rel="noopener">📄 Download Resume</a>
+                    <a class="btn ghost" href="#about" onclick="scrollToSection('about')">About Me</a>
+                </div>
+                <div style="margin-top:18px;color:var(--muted);font-size:13px">
+                    <span style="display:inline-block;margin-right:12px">📍 Karachi, Pakistan</span>
+                    <span>✉️ <a class="inline-link"
+                            href="mailto:syedaunaiza06@gmail.com">syedaunaiza06@gmail.com</a></span>
+                </div>
+            </div>
+
+            <aside class="hero-right card">
+                <h3>Quick Contact</h3>
+                <div class="contact-mini">
+                    <p>📞 +92 334 3574913</p>
+                    <p>✉️ <a class="inline-link" href="mailto:syedaunaiza06@gmail.com">syedaunaiza06@gmail.com</a></p>
+                    <p>💻 GitHub: <a class="inline-link" href="https://github.com/SyedaUnaizaAbid" target="_blank"
+                            rel="noopener">github.com/SyedaUnaizaAbid</a></p>
+                </div>
+            </aside>
+        </main>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <h2>About</h2>
+            <div class="card">
+                <p>I am a motivated Pre-Medical student learning front-end development. I enjoy building responsive web
+                    pages, solving small coding problems, and improving my design skills. I am responsible, adaptable,
+                    and quick to learn new concepts.</p>
+            </div>
+
+            <div class="grid">
+                <div class="card education-item">
+                    <h3>Intermediate (1st Year) — Pre-Medical</h3>
+                    <p><strong>St. Lawrence Govt. Girls Degree College, Karachi</strong></p>
+                    <p>Sept 2024 – May 2026 • Percentage: 67% | Grade: A</p>
+                </div>
+                <div class="card education-item">
+                    <h3>Matriculation — Bio-Science</h3>
+                    <p><strong>Memon Girls Secondary School, Karachi</strong></p>
+                    <p>Apr 2022 – May 2024 • Percentage: 78% | Grade: A</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript, Bootstrap</li>
+                        <li>Responsive Web Design</li>
+                        <li>Basic Python Programming</li>
+                        <li>Git & GitHub, VS Code</li>
+                        <li>Debugging & Browser Developer Tools</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Professional & Soft Skills</h3>
+                    <ul>
+                        <li>MS Office (Word, Excel, PowerPoint)</li>
+                        <li>Problem Solving & Logical Thinking</li>
+                        <li>Time Management & Teamwork</li>
+                        <li>Adaptability, Quick Learning & Attention to Detail</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="grid">
+                <!-- All projects included -->
+                <article class="card project-item">
+                    <h3>Bleech.de Clone</h3>
+                    <p>Responsive front-end clone using modern layout techniques.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/Bleech/" target="_blank" rel="noopener">🔗
+                        View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>iCreativez Clone</h3>
+                    <p>Replica of iCreativez site focusing on structure and styling.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/iCreativez/" target="_blank"
+                        rel="noopener">🔗 View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>Calculator</h3>
+                    <p>Basic calculator performing math operations with JS logic.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/Calculator/" target="_blank"
+                        rel="noopener">🔗 View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>Simple Gaming Website</h3>
+                    <p>Fun, interactive gaming page built using HTML, CSS & JS.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/PlayScape/" target="_blank" rel="noopener">🔗
+                        View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>JavaScript Practice Questions</h3>
+                    <p>Collection of JS programs to improve logic & problem-solving skills.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/Practice-Questions-JS/" target="_blank"
+                        rel="noopener">🔗 View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>Portfolio Website</h3>
+                    <p>Personal portfolio built with HTML & CSS to showcase projects and skills.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/Portfolio/" target="_blank" rel="noopener">🔗
+                        View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>Amazon Clone (Front-end)</h3>
+                    <p>Responsive layout focusing on product grid and navigation UI.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/Amazon-Clone/" target="_blank"
+                        rel="noopener">🔗 View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>Marksheet Calculator</h3>
+                    <p>Interactive JavaScript calculator to compute grades from user input.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/Marksheet/" target="_blank" rel="noopener">🔗
+                        View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>Age Category Checker</h3>
+                    <p>Determines user category (Child, Teen, Adult, Senior) using JS logic.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/Age-Checker/" target="_blank"
+                        rel="noopener">🔗 View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>Traffic Light Simulation</h3>
+                    <p>CSS animation demonstrating timing and transition control.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/Trafficlight/" target="_blank"
+                        rel="noopener">🔗 View Project</a>
+                </article>
+
+                <article class="card project-item">
+                    <h3>Restaurant Webpage</h3>
+                    <p>Single-page restaurant site featuring menu and contact sections.</p>
+                    <a class="btn" href="https://syedaunaizaabid.github.io/Webpage/" target="_blank" rel="noopener">🔗
+                        View Project</a>
+                </article>
+            </div>
+
+            <div style="text-align:center;margin-top:12px;">
+                <p>💻 More projects on <a class="inline-link" href="https://github.com/SyedaUnaizaAbid" target="_blank"
+                        rel="noopener">github.com/SyedaUnaizaAbid</a></p>
+            </div>
+        </section>
+
+        <!-- RESUME -->
+        <section id="resume" class="section" aria-labelledby="resume-title">
+            <h2 id="resume-title">Resume</h2>
+            <div class="grid">
+                <div class="card" style="text-align:center;">
+                    <h3>Download & View My Resume</h3>
+                    <p class="muted">A complete overview of my education, skills, projects, and experience.</p>
+                    <a class="btn"
+                        href="https://github.com/SyedaUnaizaAbid/My-Resume/blob/main/Syeda%20Unaiza%20Abid%20Resume.pdf"
+                        target="_blank" rel="noopener">📄 View / Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="grid">
+                <form class="card contact-form" onsubmit="handleForm(event)">
+                    <label>
+                        <span class="muted" style="font-size:13px">Your name</span>
+                        <input type="text" name="name" placeholder="Your full name" required>
+                    </label>
+                    <label>
+                        <span class="muted" style="font-size:13px">Your email</span>
+                        <input type="email" name="email" placeholder="you@example.com" required>
+                    </label>
+                    <label>
+                        <span class="muted" style="font-size:13px">Message</span>
+                        <textarea name="message" placeholder="Write a short message..." rows="5" required></textarea>
+                    </label>
+                    <div>
+                        <button class="btn" type="submit">Send message</button>
+                        <span id="formStatus" style="margin-left:12px;color:var(--muted);font-size:14px"></span>
+                    </div>
+                </form>
+
+                <aside class="card">
+                    <h3>Contact Info</h3>
+                    <p class="muted">Phone: +92 334 3574913</p>
+                    <p class="muted">Email: <a class="inline-link"
+                            href="mailto:syedaunaiza06@gmail.com">syedaunaiza06@gmail.com</a></p>
+                    <p class="muted">Location: Karachi, Pakistan</p>
+                    <hr style="margin:12px 0;border:none;border-top:1px solid #f0f6f4">
+                    <p>View my work on GitHub:</p>
+                    <p><a class="inline-link" href="https://github.com/SyedaUnaizaAbid" target="_blank"
+                            rel="noopener">github.com/SyedaUnaizaAbid</a></p>
+                </aside>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            © <span id="year">2025</span> Syeda Unaiza Abid • Made with ❤️ • Front-end only
+        </footer>
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
