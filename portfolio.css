@@ -1,7 +1,7 @@
-/* ===== Theme: Orange & Purple (modern tech) ===== */
+/* ===== Theme: Pistachio & Purple (modern tech) ===== */
 :root {
-    --orange-1: #f5f0e9;
-    --orange-2: #f6e2d7;
+    --pistachio-1: #F8FFF6;
+    --pistachio-2: #D8F3D2;
     --purple-1: #7b61ff;
     --purple-2: #5a3dff;
     --bg: #ffffff;
@@ -24,7 +24,7 @@ body {
 body {
     margin: 0;
     font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    background: linear-gradient(180deg, var(--orange-1), var(--orange-2));
+    background: linear-gradient(180deg, var(--pistachio-1), var(--pistachio-2));
     color: #0b1020;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -216,6 +216,7 @@ nav.nav {
 .card {
     background: var(--card);
     border-radius: 12px;
+    margin-bottom: 20px;
     padding: 16px;
     box-shadow: var(--shadow);
     transition: transform .28s ease, box-shadow .28s ease
@@ -260,9 +261,21 @@ ul.skills-list {
     margin: 0 0 6px 0
 }
 
+.project-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .project-item p {
+    flex-grow: 1;
     color: var(--muted);
     margin: 0
+}
+
+.project-item .btn {
+    margin-top: 15px;
+    align-self: flex-start;
 }
 
 /* Contact form */
@@ -324,4 +337,3 @@ a.inline-link {
     display: flex;
     justify-content: center
 }
-
